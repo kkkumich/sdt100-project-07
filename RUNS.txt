@@ -1,0 +1,39 @@
+===== part1_bubble_sort.Main.txt =====
+COMMAND: java -cp build part1_bubble_sort.Main
+INPUT (demo data):
+5
+i
+5
+-1
+5
+0
+2
+n
+
+OUTPUT:
+Number of elements (0-1000): G: generate; anything else: input: Element 0: Element 1: Element 2: Element 3: Element 4: Before: [5, -1, 5, 0, 2]
+After: [-1, 0, 2, 5, 5]
+Continue? (Y/N): 
+
+===== part2_trace.Main.txt =====
+COMMAND: java -cp build part2_trace.Main
+INPUT (demo data):
+
+OUTPUT:
+<p>Random seed: 150</p><p>Initial: [31, 79, 37, 57, 31]</p>
+<h3>Outer loop, iteration 1</h3><p>Before: [31, 79, 37, 57, 31]</p>
+<p>Inner iteration 1: 31 79 37 57 31 (no swap)</p>
+<p>Inner iteration 2: 31 <b>37 79 </b>57 31 (swap)</p>
+<p>Inner iteration 3: 31 37 <b>57 79 </b>31 (swap)</p>
+<p>Inner iteration 4: 31 37 57 <b>31 79 </b>(swap)</p>
+<h3>Outer loop, iteration 2</h3><p>Before: [31, 37, 57, 31, 79]</p>
+<p>Inner iteration 1: 31 37 57 31 79 (no swap)</p>
+<p>Inner iteration 2: 31 37 57 31 79 (no swap)</p>
+<p>Inner iteration 3: 31 37 <b>31 57 </b>79 (swap)</p>
+<h3>Outer loop, iteration 3</h3><p>Before: [31, 37, 31, 57, 79]</p>
+<p>Inner iteration 1: 31 37 31 57 79 (no swap)</p>
+<p>Inner iteration 2: 31 <b>31 37 </b>57 79 (swap)</p>
+<h3>Outer loop, iteration 4</h3><p>Before: [31, 31, 37, 57, 79]</p>
+<p>Inner iteration 1: 31 31 37 57 79 (no swap)</p>
+<p>No swaps: early stop.</p>
+<p>Sorted: [31, 31, 37, 57, 79]</p>
